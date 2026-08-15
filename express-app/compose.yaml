@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "4567:4567"
+
+
+
+# build:
+#   context: ./express-app
+#   dockerfile: ../docker/Dockerfile.prod
